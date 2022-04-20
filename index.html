@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>19th Apr Day 12</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Day-12</h1>
+    <h2>Revise the concepts covered in last week : </h2>
+        <h2>
+            Q 1 : Explain absolute and relative position by using example and with words as well
+        </h2>
+        <div class="relative">
+            <pre>
+        position :relative;
+            top: 100px;
+            left: 100px;
+            </pre>
+            <p>It is always related to its next element or siblings so that when we give it a left and top property it moves from the sibling to specified postion, like in this example it moved 100px left and top  from the above element </p>
+        </div>
+        <div class="absolute">
+            <pre>position: absolute;
+                top: 200px;
+                left: 400px;</pre>
+                <p>It is relative to its parent element if parent element is not present it will go for root element, when parent element has the position as specified as related then it will be totally relative the dimenssions of the parent</p>
+        </div>
+        <div class="gap"></div><hr>
+        <h2>
+            Q 2 : Explain the difference between fixed and sticky
+        </h2>
+        <div class="ques2">
+            <p><strong>Fixed - </strong>
+                The property fixed is relative to the viewport ,  when we apply position fixed property it gets fixed to that position so it doesn't move when we scroll the page up or down. <br>
+                It doesn't takes the additional space of the page and doesn't disturb other elements.
+                
+            </p>
+            <p><strong>Sticky - </strong> 
+                The propery Sticky is scrollable until we scroll the page till our specified position then as it reaches the specified position it becomes fixed at that position ex- is navbar. <br> It takes the space in the page and it will displace the other elements.
+            </p>
+        </div>
+        <br><hr>
+        <h2>
+            Q 3 : Arrange 5 boxes in alternate manner , first box on left of screen , second on right of screen and so on
+        </h2>
+        <div class="float">
+            <div class="box first">
+                <strong>First</strong>
+            </div>
+            <div class="box second">
+                <strong>Second</strong>
+            </div>
+            <div class="box third">
+                <strong>Third</strong>
+            </div>
+            <div class="box fourth">
+                <strong>Fourth</strong>
+            </div>
+            <div class="box five">
+                <strong>Fifth</strong>
+            </div>
+        </div>
+        <div class="blank"></div>
+        <br><hr>
+        <h2>
+            Q 4 : Create a infinte jumping ball using animation 
+        </h2>
+        <div class="animation">
+            <div class="jumpingball"></div>
+        </div>
+        <br><hr>
+        <h2>
+            Q 5 : Bring five cards in a row on full screen , if screen size is 360 px then bring the boxes in column , by using media queries
+        </h2>
+        <div class="flexbox">
+            <div class="box1 abox"><h2>Card 1</h2></div>
+            <div class="box2 abox"><h2>Card 2</h2></div>
+            <div class="box3 abox"><h2>Card 3</h2></div>
+            <div class="box4 abox"> <h2>Card 4</h2></div>
+            <div class="box5 abox"><h2>Card 5</h2></div>
+        </div>
+    <!-- Revise the concepts covered in last week : 
+        Q 1 : Explain absolute and relative position by using example and with words as well
+        Q 2 : Explain the difference between fixed and sticky
+        Q 3 : Arrange 5 boxes in alternate manner , first box on left of screen , second on right of screen and so on
+        Q 4 : Create a infinte jumping ball using animation 
+        Q 5 : Bring five cards in a row on full screen , if screen size is 360 px then bring the boxes in column , by using media queries
+    -->
+</body>
+</html>
